@@ -10,5 +10,7 @@ Contains two subpackages:
 
 ## Installation
 
+```julia
 Pkg.clone("http://github.com/rcnlee/AdaStress.jl", "AdaStress")
 Pkg.build("AdaStress")
+```
