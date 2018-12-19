@@ -32,9 +32,8 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 # *****************************************************************************
 
+using Pkg
 Pkg.clone("https://github.com/sisl/AdaptiveStressTesting.jl", "AdaptiveStressTesting")
-Pkg.clone("https://github.com/sisl/ExprSearch.jl", "ExprSearch")
+Pkg.clone("https://github.com/sisl/GBDTs.jl", "GBDTs")
 
-Pkg.checkout("AdaptiveStressTesting", "v1.0")
-Pkg.checkout("ExprSearch", "v1.0")
 
